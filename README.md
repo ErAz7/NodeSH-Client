@@ -1,6 +1,6 @@
 # NodeSH-Client
 
-A Node.js CLI to communicate with [NodeSH-Server](https://github.com/ErAz7/NodeSh-Server) which provides :
+A Node.js CLI to communicate with [NodeSH-Server](https://www.npmjs.com/package/nodesh-server) which provides :
 - __Secure Shell Access__ 
 - __Encrypted Download__ 
 - __Encrypted Upload__
