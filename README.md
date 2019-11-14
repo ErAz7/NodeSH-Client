@@ -1,6 +1,6 @@
 # NodeSH-Client
 
-A Node.js CLI to communicate with [NodeSH-Server](https://www.npmjs.com/package/nodesh-server) which provides :
+A Node.js CLI to communicate with [NodeSH-Server](https://github.com/ErAz7/NodeSh-Server) which provides :
 - __Secure Shell Access__ 
 - __Encrypted Download__ 
 - __Encrypted Upload__
@@ -31,13 +31,11 @@ wroks on __Windows__, __macOS__, __Linux__
 - [Contribution](#contribution)
 
 # Installation
-To install this package, simply run :
+Download code source and run `npm install` in project directory to install dependencies
 
-`npm install nodesh-server`
+After installation, run `npm start` to client CLI
 
-To run the client, run `npm start`
-
-Do not forget to set the host __IP address__ or __domain name__ in configuration file ('./config/index.js'), __Consider__ that username and password in this file, should be the same on server and client machines in order to connect.
+Do not forget to set the host __IP address__ or __domain name__ in configuration file ('./config/index.js'), __Consider__ that username and password in this file, should be the same on server and client machine in order to connect.
 
 # Client usage guide
 You might prefer using the sample CLI client instead of writing one yourself.

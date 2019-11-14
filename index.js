@@ -1,5 +1,3 @@
-console.clear();
-
 const querystring = require('querystring');
 const http = require('http');
 const readline = require('readline')
@@ -13,6 +11,7 @@ const secureKeyCreator = require('./encryption/createKey');
 const encryption = require('./encryption/encryption');
 const CONFIG = require('./config');
 
+console.clear();
 
 var sessionCode = '';
 var requestPending = false;
