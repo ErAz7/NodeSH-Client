@@ -1,17 +1,15 @@
 {
   "name": "nodesh-client",
-  "version": "2.0.0",
+  "version": "1.0.2",
   "description": "Node.JS CLI to communicate with nodesh-server secure shell (Diffie-Hellman key exchange, AES encryption)",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node ./src/index.js",
-    "lint": "eslint \"src/**/*.js\"",
-    "lint-fix": "eslint \"src/**/*.js\" --fix"
+    "start": "node index.js"
   },
   "dependencies": {
     "colors": "^1.3.3",
-    "socket.io": "^4.0.1"
+    "form-data": "^2.3.3",
+    "path": "^0.12.7"
   },
   "repository": {
     "type": "git",
@@ -33,14 +31,5 @@
   "bugs": {
     "url": "https://github.com/ErAz7/NodeSH-Client/issues"
   },
-  "homepage": "https://github.com/ErAz7/NodeSH-Client#readme",
-  "devDependencies": {
-    "eslint": "^7.25.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.23.2",
-    "eslint-plugin-standard": "^4.0.1"
-  }
+  "homepage": "https://github.com/ErAz7/NodeSH-Client#readme"
 }
